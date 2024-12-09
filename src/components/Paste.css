@@ -1,0 +1,77 @@
+/* Paste Component Styles */
+
+/* Styling for the search input */
+.search-input {
+    margin-top: 20px;
+    padding: 15px;
+    min-width: 600px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+  }
+  
+  /* Paste Container */
+  .paste-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Individual Paste Box - Reduced height */
+  .paste-box {
+    background-color: #fff;
+    padding: 10px; /* Reduced padding to make it shorter */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Reduced margin to make it shorter */
+  }
+  
+  /* Paste Title - Align to the left */
+  .paste-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px; /* Reduced margin */
+    text-align: left;
+  }
+  
+  /* Paste Content - Align to the left */
+  .paste-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px; /* Reduced margin */
+    text-align: left;
+  }
+  
+  /* Paste Action Buttons */
+  .paste-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .action-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .action-btn i {
+    color: #1d3557; /* Icon color */
+  }
+  
+  .action-btn:hover i {
+    color: #457b9d; /* Hover color */
+  }
+  
+  /* Date Text Styling */
+  .paste-created-at {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 5px; /* Reduced margin */
+  }
+  
